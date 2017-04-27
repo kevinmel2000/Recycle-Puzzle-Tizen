@@ -12,7 +12,7 @@ Acara ini merupakan bagian dari [BEKRAF Developer Day 2017 - Bali](https://www.d
 * [Asset Game Puzzle (sudah di download)](https://gifdicoding.blob.core.windows.net/academytizenunity/AsssetGamePuzzle.unitypackage "Download Asset Game Puzzle")
 
 ### Tizen Certificate
-Berikut ini beberapa ID Device yang dapat ditambahkan supaya nantinya game Anda dapat direview oleh tim Dicoding
+Berikut ini beberapa ID Device yang dapat ditambahkan supaya nantinya game Anda dapat direview oleh tim Dicoding:
 * 2.0#Iag89nZm4VuTJ3RJ5uo7kvEUFxs=
 * 2.0#rec1rkdIgNAXjNHbe7JOK67/TA0=
 * 2.0#GOl4YrUSlp+NDpaFf2zE22r8NIA=
@@ -20,3 +20,6 @@ Berikut ini beberapa ID Device yang dapat ditambahkan supaya nantinya game Anda 
 
 ### Set Ukuran Device
 * Tizen Z2 (800x480)
+
+### Catatan
+* Bedakan ruang Canvas dengan Gameplay. Untuk penempatan tulisan Score posisinya ditempatkan pada ruang Canvas.
