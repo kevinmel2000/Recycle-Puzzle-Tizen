@@ -39,28 +39,28 @@ public class ControlSpawn : MonoBehaviour
         if (timer1 > waitShow1)
         {
             GameObject.Instantiate(ob[Random.Range(0, (ob.Length))], spawn1.transform.position, spawn1.transform.rotation);
-            waitShow1 = Random.Range(4f, 7f);
+            waitShow1 = Random.Range(4f, 6f);
             timer1 = 0;
         }
 
         if (timer2 > waitShow2)
         {
             GameObject.Instantiate(ob[Random.Range(0, (ob.Length))], spawn2.transform.position, spawn2.transform.rotation);
-            waitShow1 = Random.Range(4f, 7f);
+            waitShow2 = Random.Range(4f, 6f);
             timer2 = 0;
         }
 
         if (timer3 > waitShow3)
         {
             GameObject.Instantiate(ob[Random.Range(0, (ob.Length))], spawn3.transform.position, spawn3.transform.rotation);
-            waitShow1 = Random.Range(4f, 7f);
+            waitShow3 = Random.Range(4f, 6f);
             timer3 = 0;
         }
 
         if (timer4 > waitShow4)
         {
             GameObject.Instantiate(ob[Random.Range(0, (ob.Length))], spawn4.transform.position, spawn4.transform.rotation);
-            waitShow4 = Random.Range(4f, 7f);
+            waitShow4 = Random.Range(4f, 6f);
             timer4 = 0;
         }
     }
