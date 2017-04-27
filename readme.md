@@ -25,4 +25,11 @@ Berikut ini beberapa ID Device yang dapat ditambahkan supaya nantinya game Anda 
 ### Catatan
 * Bedakan ruang Canvas dengan Gameplay. Untuk penempatan tulisan Score posisinya ditempatkan pada ruang Canvas.
 * Supaya tampilan UI bisa menyatu dengan tampilan Gameplay maka perlu atur konfigurasi Canvas. Render Mode menjadi Screen Space - Camera, Render Camera > Main Camera, Plane Distance = 10;
+* Untuk mengetahui config dari Tizen cli, masuk ke folder `C:\tizen-studio\tools\ide\bin`, lalu ketik `tizen cli-config -l`.
+* Kemudian masukkan path profile dengan perintah `tizen.bat cli-config –g "default.profiles.path=[DirecktoriWorkspace]\.metadata\.plugins\org.tizen.common.sign\profiles.xml"`. Gantilah `[DirecktoriWorkspace]` sesuai dengan folder workspace tizen yang terinstall.
+* Untuk mengubah arsitektur device atau store, ketik `tizen.bat cli-config "default.build.architecture=arm"`
+* Untuk mengubah konfigurasi dari Debug ke Release, ketik `tizen.bat cli-config "default.build.configuration=Release"`
 * Untuk mengaktifkan Developer Option pada device Tizen, klik icon Call, dan ketik *#84936#
+* Nyalakan emulator Tizen, lalu atur Deployment Target ke Device Tizen yang sedang terhubung dengan menekan tombol Discover pada Publishing Setting di Unity.
+* Masukkan Signing Profile Name yang sudah dibuat (contoh: Default).
+* Lalu klik tombol Build And Run.
