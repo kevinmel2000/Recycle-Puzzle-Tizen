@@ -18,6 +18,7 @@ public class Move : MonoBehaviour
         transform.Translate(0, speed * Time.deltaTime * -1f, 0);
         if(transform.position.y < -5f)
         {
+            SceneManager.LoadScene("Gameplay", LoadSceneMode.Single);
             GameObject.Destroy(gameObject);
         }
     }

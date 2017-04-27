@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BoxTrash : MonoBehaviour
 {
@@ -44,6 +45,7 @@ public class BoxTrash : MonoBehaviour
             else
             {
                 asWrong.Play();
+                SceneManager.LoadScene("Gameover", LoadSceneMode.Single);
             }
         }
     }
