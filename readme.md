@@ -23,3 +23,4 @@ Berikut ini beberapa ID Device yang dapat ditambahkan supaya nantinya game Anda 
 
 ### Catatan
 * Bedakan ruang Canvas dengan Gameplay. Untuk penempatan tulisan Score posisinya ditempatkan pada ruang Canvas.
+* Supaya tampilan UI bisa menyatu dengan tampilan Gameplay maka perlu atur konfigurasi Canvas. Render Mode menjadi Screen Space - Camera, Render Camera > Main Camera, Plane Distance = 10;
