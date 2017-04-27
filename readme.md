@@ -10,6 +10,7 @@ Acara ini merupakan bagian dari [BEKRAF Developer Day 2017 - Bali](https://www.d
 * [Unity Personal](https://store.unity.com/download?ref=personal "Download Unity Personal")
 * [Tizen Studio](https://developer.tizen.org/development/tizen-studio/download "Download Tizen Studio")
 * [Asset Game Puzzle (sudah di download)](https://gifdicoding.blob.core.windows.net/academytizenunity/AsssetGamePuzzle.unitypackage "Download Asset Game Puzzle")
+* Jika menggunakan device Tizen, download driver [Samsung Android USB Driver for Windows](http://developer.samsung.com/galaxy/others/android-usb-driver-for-windows "Download driver Samsung")
 
 ### Tizen Certificate
 Berikut ini beberapa ID Device yang dapat ditambahkan supaya nantinya game Anda dapat direview oleh tim Dicoding:
@@ -24,3 +25,4 @@ Berikut ini beberapa ID Device yang dapat ditambahkan supaya nantinya game Anda 
 ### Catatan
 * Bedakan ruang Canvas dengan Gameplay. Untuk penempatan tulisan Score posisinya ditempatkan pada ruang Canvas.
 * Supaya tampilan UI bisa menyatu dengan tampilan Gameplay maka perlu atur konfigurasi Canvas. Render Mode menjadi Screen Space - Camera, Render Camera > Main Camera, Plane Distance = 10;
+* Untuk mengaktifkan Developer Option pada device Tizen, klik icon Call, dan ketik *#84936#
